@@ -6,6 +6,9 @@ OBJS = my_malloc.o
 
 all: my_malloc
 
-my_malloc: $(EXEC) $(OBJS)
+my_malloc: $(OBJS)
 
-clean: ${RM} $(EXEC) $(OBJ)
+clean: my_clean
+
+my_clean :
+  -rm -f ${OBJS}
