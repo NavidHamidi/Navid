@@ -1,0 +1,13 @@
+                   ARITHMETIC EXPRESSION INTERPRETER
+
+Last update: 29/12/2017
+
+The working one: parser/lexer method
+Need to fix: stack method
+
+parseer/lexer:
+  handle operation prority, parenthesis
+
+
+TODO:
+  variables, assignation, functions
